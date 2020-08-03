@@ -1,0 +1,11 @@
+Webots Download: https://www.cyberbotics.com/
+
+Python Download: https://www.python.org/downloads/release/python-377/
+
+Webots API Documentation: https://cyberbotics.com/doc/reference/index
+
+Webots Robots Documentation: https://cyberbotics.com/doc/guide/robots
+
+Robocup Junior Simulation Rules: https://junior.robocup.org/wp-content/uploads/2020Rules/final_2020rules/RescueSim-Webot-DemosimulationRules-071920.pdf
+
+Rescue Maze (and project) world: https://github.com/Shadow149/RescueMaze
