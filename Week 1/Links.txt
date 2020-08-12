@@ -11,3 +11,5 @@ Robocup Junior Simulation Rules: https://junior.robocup.org/wp-content/uploads/2
 Rescue Maze (and project) world: https://github.com/Shadow149/RescueMaze
 
 Google Slides BFS Presentation: https://docs.google.com/presentation/d/12DiJNukr_r1-1hErq_KxJrWPiWl512di-eqvYuy48c8/edit?usp=sharing
+
+C++ OpenCV Installation: https://github.com/huihut/OpenCV-MinGW-Build

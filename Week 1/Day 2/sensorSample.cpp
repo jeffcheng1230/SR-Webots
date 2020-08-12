@@ -55,7 +55,7 @@ int main(int argc, char **argv) {
 
   // Enable all the other sensors
   gyro->enable(timeStep);
-  gps->enable(timeStep);
+  //gps->enable(timeStep);
   leftHeat->enable(timeStep);
   rightHeat->enable(timeStep);
 
@@ -73,7 +73,7 @@ int main(int argc, char **argv) {
      * on the Webots documentation page: https://cyberbotics.com/doc/guide/epuck
      */
 
-    cout << "Proximity sensors: " << infrared[0]->getValue() << " " << infrared[2]->getValue() << " " << infrared[4]->getValue() << " " << infrared[6]->getValue() << endl;
+    //cout << "Proximity sensors: " << infrared[0]->getValue() << " " << infrared[2]->getValue() << " " << infrared[4]->getValue() << " " << infrared[6]->getValue() << endl;
 
     /* Webots gyroscopes function like real life gyros, returning angular velocity instead of
      * directly returning angle heading. Therefore, we need to update our angle heading manually
@@ -82,8 +82,9 @@ int main(int argc, char **argv) {
      */
 
     //Must call updateGyro() to update heading!
-    //updateGyro(timeStep);
+    updateGyro(timeStep);
     //cout << "Angular velocity: " << gyro->getValues()[1] << " Angle heading:" << getAngle() << endl;
+    cout << getAngle() << endl;
 
     /*
      * The GPS sensor gives you your position relative to the world origin. This is the exact same
