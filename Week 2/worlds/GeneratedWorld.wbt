@@ -1,0 +1,1890 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+  basicTimeStep 16
+}
+Viewpoint {
+  orientation -0.9999999999923225 3.4205379360111924e-06 1.911742139300757e-06 1.2200007143181224
+  position 0.288734037921023 2.277768457598092 0.6671538472634544
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+DEF WALLTILES Group {
+  children [
+    DEF TILE worldTile {
+      floor TRUE
+      topWall TRUE
+      leftWall TRUE
+      topExternal TRUE
+      leftExternal TRUE
+      width 12
+      height 10
+      id "0"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      zPos 1
+      leftWall TRUE
+      leftExternal TRUE
+      trap TRUE
+      width 12
+      height 10
+      id "1"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      zPos 2
+      floor TRUE
+      leftWall TRUE
+      leftExternal TRUE
+      width 12
+      height 10
+      id "2"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      zPos 3
+      floor TRUE
+      leftWall TRUE
+      leftExternal TRUE
+      width 12
+      height 10
+      id "3"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      zPos 4
+      floor TRUE
+      leftWall TRUE
+      leftExternal TRUE
+      width 12
+      height 10
+      id "4"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      zPos 5
+      floor TRUE
+      bottomWall TRUE
+      leftWall TRUE
+      leftExternal TRUE
+      width 12
+      height 10
+      id "5"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      zPos 6
+      floor TRUE
+      topWall TRUE
+      leftWall TRUE
+      leftExternal TRUE
+      width 12
+      height 10
+      id "6"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      zPos 7
+      floor TRUE
+      leftWall TRUE
+      leftExternal TRUE
+      width 12
+      height 10
+      id "7"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      zPos 8
+      floor TRUE
+      bottomWall TRUE
+      leftWall TRUE
+      bottomExternal TRUE
+      leftExternal TRUE
+      width 12
+      height 10
+      id "8"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      zPos 9
+      width 12
+      height 10
+      id "9"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 1
+      floor TRUE
+      topWall TRUE
+      topExternal TRUE
+      width 12
+      height 10
+      id "10"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 1
+      zPos 1
+      floor TRUE
+      bottomWall TRUE
+      width 12
+      height 10
+      id "11"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 1
+      zPos 2
+      floor TRUE
+      topWall TRUE
+      rightWall TRUE
+      width 12
+      height 10
+      id "12"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 1
+      zPos 3
+      floor TRUE
+      bottomWall TRUE
+      topRightCorner TRUE
+      width 12
+      height 10
+      id "13"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 1
+      zPos 4
+      floor TRUE
+      topWall TRUE
+      bottomWall TRUE
+      width 12
+      height 10
+      id "14"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 1
+      zPos 5
+      floor TRUE
+      topWall TRUE
+      rightWall TRUE
+      width 12
+      height 10
+      id "15"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 1
+      zPos 6
+      floor TRUE
+      rightWall TRUE
+      width 12
+      height 10
+      id "16"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 1
+      zPos 7
+      floor TRUE
+      rightWall TRUE
+      width 12
+      height 10
+      id "17"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 1
+      zPos 8
+      floor TRUE
+      bottomWall TRUE
+      bottomExternal TRUE
+      width 12
+      height 10
+      id "18"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 1
+      zPos 9
+      width 12
+      height 10
+      id "19"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 2
+      floor TRUE
+      topWall TRUE
+      topExternal TRUE
+      width 12
+      height 10
+      id "20"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 2
+      zPos 1
+      floor TRUE
+      bottomLeftCorner TRUE
+      width 12
+      height 10
+      id "21"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 2
+      zPos 2
+      floor TRUE
+      bottomWall TRUE
+      leftWall TRUE
+      width 12
+      height 10
+      id "22"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 2
+      zPos 3
+      floor TRUE
+      topWall TRUE
+      width 12
+      height 10
+      id "23"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 2
+      zPos 4
+      floor TRUE
+      bottomLeftCorner TRUE
+      width 12
+      height 10
+      id "24"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 2
+      zPos 5
+      floor TRUE
+      leftWall TRUE
+      width 12
+      height 10
+      id "25"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 2
+      zPos 6
+      floor TRUE
+      bottomWall TRUE
+      leftWall TRUE
+      width 12
+      height 10
+      id "26"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 2
+      zPos 7
+      floor TRUE
+      topWall TRUE
+      rightWall TRUE
+      leftWall TRUE
+      width 12
+      height 10
+      id "27"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 2
+      zPos 8
+      floor TRUE
+      rightWall TRUE
+      bottomWall TRUE
+      bottomExternal TRUE
+      width 12
+      height 10
+      id "28"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 2
+      zPos 9
+      width 12
+      height 10
+      id "29"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 3
+      floor TRUE
+      topWall TRUE
+      topExternal TRUE
+      width 12
+      height 10
+      id "30"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 3
+      zPos 1
+      floor TRUE
+      bottomWall TRUE
+      width 12
+      height 10
+      id "31"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 3
+      zPos 2
+      floor TRUE
+      topWall TRUE
+      rightWall TRUE
+      bottomWall TRUE
+      swamp TRUE
+      width 12
+      height 10
+      id "32"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 3
+      zPos 3
+      floor TRUE
+      topWall TRUE
+      checkpoint TRUE
+      width 12
+      height 10
+      id "33"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 3
+      zPos 4
+      floor TRUE
+      width 12
+      height 10
+      id "34"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 3
+      zPos 5
+      floor TRUE
+      bottomWall TRUE
+      width 12
+      height 10
+      id "35"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 3
+      zPos 6
+      floor TRUE
+      topWall TRUE
+      bottomWall TRUE
+      width 12
+      height 10
+      id "36"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 3
+      zPos 7
+      floor TRUE
+      topWall TRUE
+      leftWall TRUE
+      width 12
+      height 10
+      id "37"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 3
+      zPos 8
+      floor TRUE
+      bottomWall TRUE
+      leftWall TRUE
+      bottomExternal TRUE
+      width 12
+      height 10
+      id "38"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 3
+      zPos 9
+      width 12
+      height 10
+      id "39"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 4
+      floor TRUE
+      topWall TRUE
+      bottomWall TRUE
+      topExternal TRUE
+      width 12
+      height 10
+      id "40"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 4
+      zPos 1
+      floor TRUE
+      topWall TRUE
+      bottomLeftCorner TRUE
+      width 12
+      height 10
+      id "41"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 4
+      zPos 2
+      floor TRUE
+      leftWall TRUE
+      bottomRightCorner TRUE
+      width 12
+      height 10
+      id "42"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 4
+      zPos 3
+      floor TRUE
+      rightWall TRUE
+      bottomWall TRUE
+      topLeftCorner TRUE
+      width 12
+      height 10
+      id "43"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 4
+      zPos 4
+      floor TRUE
+      topWall TRUE
+      width 12
+      height 10
+      id "44"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 4
+      zPos 5
+      floor TRUE
+      rightWall TRUE
+      bottomWall TRUE
+      width 12
+      height 10
+      id "45"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 4
+      zPos 6
+      floor TRUE
+      topWall TRUE
+      width 12
+      height 10
+      id "46"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 4
+      zPos 7
+      floor TRUE
+      bottomWall TRUE
+      width 12
+      height 10
+      id "47"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 4
+      zPos 8
+      floor TRUE
+      topWall TRUE
+      bottomWall TRUE
+      bottomExternal TRUE
+      width 12
+      height 10
+      id "48"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 4
+      zPos 9
+      width 12
+      height 10
+      id "49"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 5
+      floor TRUE
+      topWall TRUE
+      bottomWall TRUE
+      topExternal TRUE
+      width 12
+      height 10
+      id "50"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 5
+      zPos 1
+      floor TRUE
+      topWall TRUE
+      width 12
+      height 10
+      id "51"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 5
+      zPos 2
+      floor TRUE
+      bottomWall TRUE
+      width 12
+      height 10
+      id "52"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 5
+      zPos 3
+      floor TRUE
+      topWall TRUE
+      leftWall TRUE
+      width 12
+      height 10
+      id "53"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 5
+      zPos 4
+      floor TRUE
+      rightWall TRUE
+      topLeftCorner TRUE
+      width 12
+      height 10
+      id "54"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 5
+      zPos 5
+      floor TRUE
+      leftWall TRUE
+      width 12
+      height 10
+      id "55"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 5
+      zPos 6
+      floor TRUE
+      bottomWall TRUE
+      topLeftCorner TRUE
+      width 12
+      height 10
+      id "56"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 5
+      zPos 7
+      floor TRUE
+      topWall TRUE
+      rightWall TRUE
+      bottomWall TRUE
+      width 12
+      height 10
+      id "57"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 5
+      zPos 8
+      floor TRUE
+      topWall TRUE
+      bottomWall TRUE
+      bottomExternal TRUE
+      width 12
+      height 10
+      id "58"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 5
+      zPos 9
+      width 12
+      height 10
+      id "59"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 6
+      floor TRUE
+      topWall TRUE
+      topExternal TRUE
+      width 12
+      height 10
+      id "60"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 6
+      zPos 1
+      floor TRUE
+      bottomRightCorner TRUE
+      width 12
+      height 10
+      id "61"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 6
+      zPos 2
+      floor TRUE
+      rightWall TRUE
+      width 12
+      height 10
+      id "62"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 6
+      zPos 3
+      floor TRUE
+      width 12
+      height 10
+      id "63"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 6
+      zPos 4
+      floor TRUE
+      leftWall TRUE
+      width 12
+      height 10
+      id "64"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 6
+      zPos 5
+      floor TRUE
+      rightWall TRUE
+      bottomWall TRUE
+      width 12
+      height 10
+      id "65"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 6
+      zPos 6
+      floor TRUE
+      topWall TRUE
+      bottomLeftCorner TRUE
+      width 12
+      height 10
+      id "66"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 6
+      zPos 7
+      floor TRUE
+      rightWall TRUE
+      leftWall TRUE
+      width 12
+      height 10
+      id "67"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 6
+      zPos 8
+      floor TRUE
+      bottomWall TRUE
+      topLeftCorner TRUE
+      bottomExternal TRUE
+      width 12
+      height 10
+      id "68"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 6
+      zPos 9
+      width 12
+      height 10
+      id "69"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 7
+      floor TRUE
+      topWall TRUE
+      topExternal TRUE
+      width 12
+      height 10
+      id "70"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 7
+      zPos 1
+      floor TRUE
+      bottomWall TRUE
+      swamp TRUE
+      width 12
+      height 10
+      id "71"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 7
+      zPos 2
+      floor TRUE
+      topWall TRUE
+      leftWall TRUE
+      bottomRightCorner TRUE
+      width 12
+      height 10
+      id "72"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 7
+      zPos 3
+      floor TRUE
+      rightWall TRUE
+      bottomWall TRUE
+      width 12
+      height 10
+      id "73"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 7
+      zPos 4
+      floor TRUE
+      topWall TRUE
+      width 12
+      height 10
+      id "74"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 7
+      zPos 5
+      floor TRUE
+      bottomWall TRUE
+      leftWall TRUE
+      width 12
+      height 10
+      id "75"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 7
+      zPos 6
+      topWall TRUE
+      trap TRUE
+      width 12
+      height 10
+      id "76"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 7
+      zPos 7
+      floor TRUE
+      leftWall TRUE
+      checkpoint TRUE
+      width 12
+      height 10
+      id "77"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 7
+      zPos 8
+      floor TRUE
+      bottomWall TRUE
+      bottomExternal TRUE
+      width 12
+      height 10
+      id "78"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 7
+      zPos 9
+      width 12
+      height 10
+      id "79"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 8
+      floor TRUE
+      topWall TRUE
+      bottomWall TRUE
+      topExternal TRUE
+      width 12
+      height 10
+      id "80"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 8
+      zPos 1
+      floor TRUE
+      topWall TRUE
+      rightWall TRUE
+      width 12
+      height 10
+      id "81"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 8
+      zPos 2
+      floor TRUE
+      rightWall TRUE
+      bottomWall TRUE
+      width 12
+      height 10
+      id "82"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 8
+      zPos 3
+      topWall TRUE
+      bottomWall TRUE
+      leftWall TRUE
+      trap TRUE
+      width 12
+      height 10
+      id "83"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 8
+      zPos 4
+      floor TRUE
+      topWall TRUE
+      width 12
+      height 10
+      id "84"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 8
+      zPos 5
+      floor TRUE
+      bottomWall TRUE
+      width 12
+      height 10
+      id "85"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 8
+      zPos 6
+      floor TRUE
+      topWall TRUE
+      swamp TRUE
+      width 12
+      height 10
+      id "86"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 8
+      zPos 7
+      floor TRUE
+      width 12
+      height 10
+      id "87"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 8
+      zPos 8
+      floor TRUE
+      bottomWall TRUE
+      bottomExternal TRUE
+      width 12
+      height 10
+      id "88"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 8
+      zPos 9
+      width 12
+      height 10
+      id "89"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 9
+      floor TRUE
+      topWall TRUE
+      bottomLeftCorner TRUE
+      topExternal TRUE
+      width 12
+      height 10
+      id "90"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 9
+      zPos 1
+      floor TRUE
+      leftWall TRUE
+      width 12
+      height 10
+      id "91"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 9
+      zPos 2
+      floor TRUE
+      leftWall TRUE
+      width 12
+      height 10
+      id "92"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 9
+      zPos 3
+      floor TRUE
+      bottomWall TRUE
+      topLeftCorner TRUE
+      width 12
+      height 10
+      id "93"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 9
+      zPos 4
+      floor TRUE
+      topWall TRUE
+      bottomWall TRUE
+      width 12
+      height 10
+      id "94"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 9
+      zPos 5
+      floor TRUE
+      topWall TRUE
+      width 12
+      height 10
+      id "95"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 9
+      zPos 6
+      floor TRUE
+      bottomWall TRUE
+      width 12
+      height 10
+      id "96"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 9
+      zPos 7
+      floor TRUE
+      topWall TRUE
+      width 12
+      height 10
+      id "97"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 9
+      zPos 8
+      floor TRUE
+      bottomWall TRUE
+      bottomExternal TRUE
+      width 12
+      height 10
+      id "98"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 9
+      zPos 9
+      width 12
+      height 10
+      id "99"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 10
+      floor TRUE
+      topWall TRUE
+      rightWall TRUE
+      topExternal TRUE
+      rightExternal TRUE
+      checkpoint TRUE
+      width 12
+      height 10
+      id "100"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 10
+      zPos 1
+      floor TRUE
+      rightWall TRUE
+      rightExternal TRUE
+      width 12
+      height 10
+      id "101"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 10
+      zPos 2
+      floor TRUE
+      rightWall TRUE
+      bottomWall TRUE
+      rightExternal TRUE
+      width 12
+      height 10
+      id "102"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 10
+      zPos 3
+      floor TRUE
+      topWall TRUE
+      rightWall TRUE
+      bottomWall TRUE
+      rightExternal TRUE
+      width 12
+      height 10
+      id "103"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 10
+      zPos 4
+      floor TRUE
+      topWall TRUE
+      rightWall TRUE
+      rightExternal TRUE
+      start TRUE
+      width 12
+      height 10
+      id "104"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 10
+      zPos 5
+      floor TRUE
+      rightWall TRUE
+      rightExternal TRUE
+      width 12
+      height 10
+      id "105"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 10
+      zPos 6
+      floor TRUE
+      rightWall TRUE
+      rightExternal TRUE
+      width 12
+      height 10
+      id "106"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 10
+      zPos 7
+      floor TRUE
+      rightWall TRUE
+      bottomWall TRUE
+      rightExternal TRUE
+      width 12
+      height 10
+      id "107"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 10
+      zPos 8
+      floor TRUE
+      topWall TRUE
+      rightWall TRUE
+      bottomWall TRUE
+      rightExternal TRUE
+      bottomExternal TRUE
+      width 12
+      height 10
+      id "108"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 10
+      zPos 9
+      width 12
+      height 10
+      id "109"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 11
+      width 12
+      height 10
+      id "110"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 11
+      zPos 1
+      width 12
+      height 10
+      id "111"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 11
+      zPos 2
+      width 12
+      height 10
+      id "112"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 11
+      zPos 3
+      width 12
+      height 10
+      id "113"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 11
+      zPos 4
+      width 12
+      height 10
+      id "114"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 11
+      zPos 5
+      width 12
+      height 10
+      id "115"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 11
+      zPos 6
+      width 12
+      height 10
+      id "116"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 11
+      zPos 7
+      width 12
+      height 10
+      id "117"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 11
+      zPos 8
+      width 12
+      height 10
+      id "118"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+    DEF TILE worldTile {
+      xPos 11
+      zPos 9
+      width 12
+      height 10
+      id "119"
+      xScale 0.4
+      zScale 0.4
+      yScale 0.4
+    }
+  ]
+}
+DEF CHECKPOINTBOUNDS Group {
+  children [
+    DEF boundary Group {
+      children [
+        DEF checkpoint0min Transform {
+          translation -0.42 -0.03 -0.3
+        }
+        DEF checkpoint0max Transform {
+          translation -0.3 -0.03 -0.18
+        }
+      ]
+    }
+    DEF boundary Group {
+      children [
+        DEF checkpoint1min Transform {
+          translation 0.06000000000000011 -0.03 0.1800000000000001
+        }
+        DEF checkpoint1max Transform {
+          translation 0.1800000000000001 -0.03 0.3000000000000001
+        }
+      ]
+    }
+    DEF boundary Group {
+      children [
+        DEF checkpoint2min Transform {
+          translation 0.4200000000000002 -0.03 -0.6599999999999999
+        }
+        DEF checkpoint2max Transform {
+          translation 0.5400000000000003 -0.03 -0.54
+        }
+      ]
+    }
+  ]
+}
+DEF TRAPBOUNDS Group {
+  children [
+    DEF boundary Group {
+      children [
+        DEF trap0min Transform {
+          translation -0.78 -0.03 -0.54
+        }
+        DEF trap0max Transform {
+          translation -0.6599999999999999 -0.03 -0.42
+        }
+      ]
+    }
+    DEF boundary Group {
+      children [
+        DEF trap1min Transform {
+          translation 0.06000000000000011 -0.03 0.06
+        }
+        DEF trap1max Transform {
+          translation 0.1800000000000001 -0.03 0.18
+        }
+      ]
+    }
+    DEF boundary Group {
+      children [
+        DEF trap2min Transform {
+          translation 0.18 -0.03 -0.3
+        }
+        DEF trap2max Transform {
+          translation 0.3 -0.03 -0.18
+        }
+      ]
+    }
+  ]
+}
+DEF STARTBOUNDS Group {
+  children [
+    DEF boundary Group {
+      children [
+        DEF start0min Transform {
+          translation 0.4200000000000002 -0.03 -0.18
+        }
+        DEF start0max Transform {
+          translation 0.5400000000000003 -0.03 -0.06
+        }
+      ]
+    }
+  ]
+}
+DEF SWAMPBOUNDS Group {
+  children [
+    DEF boundary Group {
+      children [
+        DEF swamp0min Transform {
+          translation -0.42 -0.03 -0.42
+        }
+        DEF swamp0max Transform {
+          translation -0.3 -0.03 -0.3
+        }
+      ]
+    }
+    DEF boundary Group {
+      children [
+        DEF swamp1min Transform {
+          translation 0.06000000000000011 -0.03 -0.54
+        }
+        DEF swamp1max Transform {
+          translation 0.1800000000000001 -0.03 -0.42
+        }
+      ]
+    }
+    DEF boundary Group {
+      children [
+        DEF swamp2min Transform {
+          translation 0.18 -0.03 0.06
+        }
+        DEF swamp2max Transform {
+          translation 0.3 -0.03 0.18
+        }
+      ]
+    }
+  ]
+}
+DEF OBSTACLES Group {
+  children [
+    DEF OBSTACLE0 Solid {
+      translation 0.07668800000000012 0 -0.13454800000000003
+      rotation 0 1 0 0.404
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.45 0.45 0.45
+            }
+          }
+          geometry DEF OBSTACLEBOX0 Box {
+            size 0.020000000000000004 0.06 0.06
+          }
+        }
+      ]
+      name "obstacle0"
+      boundingObject USE OBSTACLEBOX0
+      recognitionColors [
+        0.45 0.45 0.45
+      ]
+    }
+    DEF OBSTACLE1 Solid {
+      translation 0.030124 0 -0.22134000000000006
+      rotation 0 1 0 2.273
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.45 0.45 0.45
+            }
+          }
+          geometry DEF OBSTACLEBOX1 Box {
+            size 0.04000000000000001 0.06 0.072
+          }
+        }
+      ]
+      name "obstacle1"
+      boundingObject USE OBSTACLEBOX1
+      recognitionColors [
+        0.45 0.45 0.45
+      ]
+    }
+    DEF OBSTACLE2 Solid {
+      translation -0.72224 0 -0.5948800000000001
+      rotation 0 1 0 5.559
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.45 0.45 0.45
+            }
+          }
+          geometry DEF OBSTACLEBOX2 Box {
+            size 0.04000000000000001 0.06 0.06
+          }
+        }
+      ]
+      name "obstacle2"
+      boundingObject USE OBSTACLEBOX2
+      recognitionColors [
+        0.45 0.45 0.45
+      ]
+    }
+    DEF OBSTACLE3 Solid {
+      translation -0.642948 0 -0.323072
+      rotation 0 1 0 1.562
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.45 0.45 0.45
+            }
+          }
+          geometry DEF OBSTACLEBOX3 Box {
+            size 0.028000000000000004 0.06 0.036
+          }
+        }
+      ]
+      name "obstacle3"
+      boundingObject USE OBSTACLEBOX3
+      recognitionColors [
+        0.45 0.45 0.45
+      ]
+    }
+  ]
+}
+DEF DEBRIS Group {
+}
+DEF HUMANGROUP Group {
+  children [
+    HeatVictim {
+      translation -0.7744 0 0.32899999999999996
+      rotation 0 1 0 -1.57
+      name "HeatVictim0"
+    }
+    Victim {
+      translation -0.625 0 -0.425
+      name "Victim1"
+      type "stable"
+    }
+    Victim {
+      translation -0.604 0 -0.185
+      name "Victim2"
+      type "stable"
+    }
+    Victim {
+      translation -0.604 0 -0.175
+      rotation 0 1 0 3.14
+      name "Victim3"
+      type "stable"
+    }
+    HeatVictim {
+      translation -0.599 0 0.4144
+      name "HeatVictim4"
+    }
+    Victim {
+      translation -0.535 0 0.2550000000000001
+      rotation 0 1 0 -1.57
+      name "Victim5"
+      type "stable"
+    }
+    Victim {
+      translation -0.362 0 -0.425
+      name "Victim6"
+      type "unharmed"
+    }
+    Victim {
+      translation -0.376 0 0.175
+      name "Victim7"
+      type "unharmed"
+    }
+    Victim {
+      translation -0.295 0 -0.388
+      rotation 0 1 0 -1.57
+      name "Victim8"
+    }
+    HeatVictim {
+      translation -0.22699999999999998 0 -0.1856
+      name "HeatVictim9"
+    }
+    HeatVictim {
+      translation -0.254 0 -0.1744
+      rotation 0 1 0 3.14
+      name "HeatVictim10"
+    }
+    Victim {
+      translation -0.265 0 0.05500000000000012
+      name "Victim11"
+    }
+    HeatVictim {
+      translation -0.258 0 0.3056
+      rotation 0 1 0 3.14
+      name "HeatVictim12"
+    }
+    Victim {
+      translation -0.1289999999999999 0 -0.305
+      name "Victim13"
+      type "unharmed"
+    }
+    HeatVictim {
+      translation -0.1743999999999999 0 -0.02799999999999989
+      rotation 0 1 0 -1.57
+      name "HeatVictim14"
+    }
+    Victim {
+      translation -0.08899999999999988 0 0.175
+      name "Victim15"
+    }
+    Victim {
+      translation -0.023 0 -0.655
+      rotation 0 1 0 3.14
+      name "Victim16"
+      type "unharmed"
+    }
+    Victim {
+      translation 0.05500000000000001 0 -0.02099999999999989
+      rotation 0 1 0 1.57
+      name "Victim17"
+      type "unharmed"
+    }
+    HeatVictim {
+      translation 0.014 0 0.06559999999999999
+      rotation 0 1 0 3.14
+      name "HeatVictim18"
+    }
+    Victim {
+      translation 0.0650000000000001 0 -0.385
+      rotation 0 1 0 -1.57
+      name "Victim19"
+      type "stable"
+    }
+    HeatVictim {
+      translation 0.12100000000000011 0 0.054400000000000115
+      name "HeatVictim20"
+    }
+    Victim {
+      translation 0.248 0 -0.535
+      rotation 0 1 0 3.14
+      name "Victim21"
+      type "stable"
+    }
+    Victim {
+      translation 0.236 0 -0.305
+      name "Victim22"
+    }
+    Victim {
+      translation 0.33599999999999985 0 0.175
+      name "Victim23"
+      type "unharmed"
+    }
+    Victim {
+      translation 0.5350000000000003 0 -0.389
+      rotation 0 1 0 1.57
+      name "Victim24"
+      type "stable"
+    }
+  ]
+}
+DEF ROBOT0 E-puck-custom {
+  translation 0 -1000 0
+  name "e-puck 0"
+  controller "ColorTest"
+  camera_fieldOfView 1
+  camera_width 128
+  camera_height 128
+  turretSlot [
+    GPS {
+    }
+    LightSensor {
+      translation -0.03 0 0
+      rotation 0 1 0 3.14
+      name "left_heat_sensor"
+      lookupTable [
+        0 21 0
+        2 25 0
+        5 30 0
+        12 37 0
+        1000 38 0
+      ]
+      colorFilter 1 0 0
+      occlusion TRUE
+    }
+    LightSensor {
+      translation 0.03 0 0
+      name "right_heat_sensor"
+      lookupTable [
+        0 21 0
+        2 25 0
+        5 30 0
+        12 37 0
+        1000 38 0
+      ]
+      colorFilter 1 0 0
+      occlusion TRUE
+    }
+  ]
+  groundSensorsSlot [
+    Gyro {
+      rotation 0 0 1 1.57079
+    }
+    Camera {
+      translation -0.02 0 -0.01
+      rotation 0 1 0 -1.5707953071795862
+      name "colour_sensor"
+      width 1
+      height 1
+    }
+  ]
+  max_velocity 2
+}
+DEF MAINSUPERVISOR Robot {
+  children [
+    Receiver {
+      channel 1
+    }
+  ]
+  controller "MainSupervisor"
+  supervisor TRUE
+  window "MainSupervisorWindow"
+}
