@@ -1,0 +1,13 @@
+MAX_GAME_DURATION: 8:00
+ROBOT_0_SCORE: 0
+
+ROBOT_0: NO_TEAM_NAME
+07:26 Lack of Progress - 5
+07:26 Relocating to checkpoint
+07:06 Lack of Progress - 5
+07:06 Relocating to checkpoint
+06:32 Lack of Progress - 5
+06:32 Relocating to checkpoint
+06:12 Lack of Progress - 5
+06:12 Relocating to checkpoint
+

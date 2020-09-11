@@ -1,0 +1,11 @@
+MAX_GAME_DURATION: 8:00
+ROBOT_0_SCORE: 10
+
+ROBOT_0: NO_TEAM_NAME
+07:54 Found checkpoint  +10
+07:51 Entered swamp
+07:43 Entered swamp
+07:42 Entered swamp
+07:41 Entered swamp
+07:37 Entered swamp
+
